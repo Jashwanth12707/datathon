@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "45047000000017001",
+      "name": "AIforpolice",
+      "domain": {
+        "id": "50043225448",
+        "name": "aiforpolice-60074380441.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60074380441",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
