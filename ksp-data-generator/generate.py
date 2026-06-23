@@ -26,6 +26,24 @@ from generators import (
 from generators.utils import ensure_dir, write_rows
 
 
+SMOKE_TEST_COUNTS = {
+    "fir": 1000,
+    "victim": 850,
+    "accused": 300,
+    "evidence": 1200,
+    "witness": 900,
+    "court": 300,
+    "vehicle": 400,
+    "cctv": 120,
+    "officer": 160,
+    "station": 80,
+    "bond": 220,
+    "gang": 40,
+    "history": 120,
+    "network": 600,
+}
+
+
 GENERATOR_PLAN = [
     ("location.csv", location_generator.FIELDS, location_generator.rows, ("station",)),
     ("station.csv", station_generator.FIELDS, station_generator.rows, ("station",)),
@@ -49,7 +67,11 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Generate synthetic Karnataka State Police relational crime datasets.")
     parser.add_argument("--output-dir", default=str(OUTPUT_DIR), help="Directory where CSV files will be written.")
     parser.add_argument("--scale", type=float, default=1.0, help="Multiply all configured counts by this value.")
-    parser.add_argument("--small", action="store_true", help="Generate a tiny dataset for smoke testing.")
+    parser.add_argument(
+        "--small",
+        action="store_true",
+        help="Generate a tiny smoke-test dataset only. Normal runs use the larger configurable defaults from config.py.",
+    )
     for key in sorted(COUNTS):
         parser.add_argument(f"--{key}", type=int, default=None, help=f"Override {key} row count.")
     return parser.parse_args()
@@ -57,22 +79,7 @@ def parse_args():
 
 def resolve_counts(args):
     if args.small:
-        counts = {
-            "fir": 1000,
-            "victim": 850,
-            "accused": 300,
-            "evidence": 1200,
-            "witness": 900,
-            "court": 300,
-            "vehicle": 400,
-            "cctv": 120,
-            "officer": 160,
-            "station": 80,
-            "bond": 220,
-            "gang": 40,
-            "history": 120,
-            "network": 600,
-        }
+        counts = dict(SMOKE_TEST_COUNTS)
     else:
         counts = {key: max(0, int(value * args.scale)) for key, value in COUNTS.items()}
     for key in counts:
@@ -122,9 +129,10 @@ def generate_all(output_dir, counts):
 def main():
     args = parse_args()
     counts = resolve_counts(args)
+    profile = "smoke-test" if args.small else "configured-default"
+    print(f"Using {profile} counts: {json.dumps(counts, indent=2)}")
     generate_all(args.output_dir, counts)
 
 
 if __name__ == "__main__":
     main()
-

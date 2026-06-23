@@ -1,0 +1,33 @@
+Incident Number: FIR-000000001
+Date: 2022-01-12
+Time: 16:25:41
+Police Station: Hassan Town Rural Police Station
+Investigating Officer: Police Constable Gautam Sharaf (KSP46418)
+
+Summary of Incident:
+The FIR records a case of Chain Snatching reported within the jurisdiction of Hassan Town Rural Police Station. The occurrence is noted at Hassan Town Cross on 2022-01-12 at about 21:54:09. The information was received as zero fir transfer and registered under IPC, sections 356, 379.
+
+Victim Details:
+No linked victim entry was available in the current extracts.
+
+Location:
+District: Hassan
+Beat Number: B-14
+Recorded Coordinates: 13.017431, 76.099553
+Taluk/Ward Reference: Hassan / Ward 144
+
+Initial Observations:
+The first response record indicates attention to victim safety, scene control, and identification of immediate leads. Gabriel Chanda is shown as complainant, with address recorded as 723, Puri Circle, Shimoga-173683.
+
+Property Loss:
+Property/Subject: Mobile phone
+Estimated Loss: 232303
+
+IPC/BNS Sections:
+356, 379
+
+Actions Taken:
+FIR registration completed, complainant details entered, linked witnesses and evidence reviewed from available records, and investigation marked to the above officer for follow-up.
+
+Status:
+Under Investigation

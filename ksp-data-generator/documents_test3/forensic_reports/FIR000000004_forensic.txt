@@ -1,0 +1,28 @@
+Forensic Report
+
+Laboratory:
+RFSL Dharwad
+
+FIR:
+FIR-000000004
+
+Evidence Received:
+EVD-000130805 (Mobile phone), EVD-000157588 (Weapon), EVD-000199162 (Clothing)
+
+Fingerprint Analysis:
+No conclusive fingerprint narrative is separately stored in the CSV extract. Examination status should be read with the linked evidence status entries.
+
+DNA Analysis:
+DNA-specific result is not independently recorded in the available dataset.
+
+Blood Analysis:
+No separate blood-analysis result field is present in the linked tables.
+
+Ballistics:
+Weapon-linked exhibits may require ballistic opinion.
+
+Mobile Forensics:
+Mobile or digital device evidence is present and may support device-level extraction or communication review.
+
+Conclusion:
+The forensic summary is limited to the exhibits and statuses actually connected to the FIR. Present linked evidence suggests a cyber fraud inquiry with procedural reliance on documented seizure and laboratory routing where available.

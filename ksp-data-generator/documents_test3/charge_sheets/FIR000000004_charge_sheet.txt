@@ -1,0 +1,30 @@
+Charge Sheet
+
+Court:
+Cyber Crime Court Bengaluru
+
+FIR:
+FIR-000000004
+
+Accused:
+Unknown/Not linked
+
+Charges:
+IT Act, IPC, Sections 66C, 66D, 420
+
+Evidence List:
+- EVD-000130805: Mobile phone, Returned
+- EVD-000157588: Weapon, Report Received
+- EVD-000199162: Clothing, Disposed
+
+Witness List:
+- Nil
+
+Officer Opinion:
+Upon review of the linked records, sufficient material exists to place the above facts before the court for consideration in accordance with law. The charge sheet relies on the FIR, linked witness statements, evidence register, and any supporting surveillance or vehicle records available in the case extract.
+
+Recommendation:
+Proceed in terms of the case status shown as Acquitted and list the matter for further judicial scrutiny.
+
+Filed By:
+PSI Yashvi Parmar

@@ -1,0 +1,34 @@
+Crime Scene Note: FIR-000000007
+
+Location:
+Jayanagar Bus Stand, Jayanagar North Police Station, Bengaluru Urban
+
+Date/Time of Occurrence:
+2019-09-17 at 23:30:43
+
+Weather:
+Cloud cover present with moderate ambient moisture.
+
+Lighting:
+Street and ambient commercial lighting available.
+
+Entry Point:
+Likely approach through the main public access side.
+
+Exit Point:
+Departure path likely merged into routine local traffic.
+
+Objects Observed:
+The available record identifies the subject matter/property as Mobile phone. Nearby scene significance should be correlated with witness and CCTV records where available.
+
+Blood:
+Visible blood evidence is not specifically recorded in linked material.
+
+Weapons:
+Weapon reference appears in linked evidence.
+
+Footprints:
+No distinct footprint observation is preserved in the CSV extracts; scene interpretation remains limited to recorded evidence and witness data.
+
+Vehicle Tracks:
+Vehicle KA04TM5100, a Green TVS Car, is marked Released.

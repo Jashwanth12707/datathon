@@ -1,4 +1,5 @@
 import csv
+import calendar
 import random
 import uuid
 from contextlib import contextmanager
@@ -94,7 +95,9 @@ def random_date():
     total_days = (end - start).days
     selected = start + timedelta(days=random.randint(0, total_days))
     if selected.month in (8, 9, 10, 11) and random.random() < 0.12:
-        selected = selected.replace(month=random.choice([8, 9, 10, 11]))
+        festival_month = random.choice([8, 9, 10, 11])
+        max_day = calendar.monthrange(selected.year, festival_month)[1]
+        selected = selected.replace(month=festival_month, day=min(selected.day, max_day))
     return selected
 
 
@@ -178,4 +181,3 @@ def write_rows(path, fieldnames, rows, total=None, description=None):
 def created_at_for(day):
     dt = datetime.combine(day, time(random.randint(8, 22), random.randint(0, 59), random.randint(0, 59)))
     return dt.isoformat(sep=" ")
-

@@ -1,0 +1,33 @@
+Incident Number: FIR-000000004
+Date: 2025-01-09
+Time: 13:26:11
+Police Station: Vidyanagar Market Police Station
+Investigating Officer: PSI Yashvi Parmar (KSP10167)
+
+Summary of Incident:
+The FIR records a case of Cyber Fraud reported within the jurisdiction of Vidyanagar Market Police Station. The occurrence is noted at Vidyanagar Layout on 2025-01-09 at about 17:17:37. The information was received as online and registered under IT Act, IPC, sections 66C, 66D, 420.
+
+Victim Details:
+No linked victim entry was available in the current extracts.
+
+Location:
+District: Dharwad
+Beat Number: B-36
+Recorded Coordinates: 15.348438, 75.130941
+Taluk/Ward Reference: Hubballi / Ward 59
+
+Initial Observations:
+The first response record indicates attention to victim safety, scene control, and identification of immediate leads. Aadhya Mane is shown as complainant, with address recorded as 54/21, Pandya Chowk, Bikaner-528001.
+
+Property Loss:
+Property/Subject: Bank balance
+Estimated Loss: 2419248
+
+IPC/BNS Sections:
+66C, 66D, 420
+
+Actions Taken:
+FIR registration completed, complainant details entered, linked witnesses and evidence reviewed from available records, and investigation marked to the above officer for follow-up.
+
+Status:
+Closed

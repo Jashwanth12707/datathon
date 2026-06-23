@@ -1,0 +1,23 @@
+Arrest Record
+
+FIR: FIR-000000001
+Accused: Mason Dhaliwal (ACC-000016443)
+Arrest Date: 2022-01-12
+Officer: Police Constable Gautam Sharaf
+Reason:
+Arrest/procedural custody action shown in relation to the investigation of Chain Snatching under sections 356, 379.
+
+Legal Sections:
+356, 379
+
+Items Seized:
+Blood sample
+
+Rights Explained:
+The record notes that the accused was informed of the grounds of action and procedural rights in the course of arrest processing.
+
+Medical Examination:
+Medical examination to be read as completed/referred as per standard arrest handling procedure; no contradictory field is present in current linked CSV records.
+
+Custody Status:
+Arrested

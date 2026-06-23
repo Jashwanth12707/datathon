@@ -1,0 +1,28 @@
+Forensic Report
+
+Laboratory:
+RFSL Dharwad
+
+FIR:
+FIR-000000006
+
+Evidence Received:
+EVD-000016755 (Clothing), EVD-000048028 (Clothing), EVD-000049559 (Bank statement), EVD-000057239 (Fingerprint)
+
+Fingerprint Analysis:
+No conclusive fingerprint narrative is separately stored in the CSV extract. Examination status should be read with the linked evidence status entries.
+
+DNA Analysis:
+DNA-specific result is not independently recorded in the available dataset.
+
+Blood Analysis:
+No separate blood-analysis result field is present in the linked tables.
+
+Ballistics:
+No clear ballistic exhibit is linked in the current evidence rows.
+
+Mobile Forensics:
+No mobile-forensics-specific exhibit is clearly linked for this FIR.
+
+Conclusion:
+The forensic summary is limited to the exhibits and statuses actually connected to the FIR. Present linked evidence suggests a vehicle theft inquiry with procedural reliance on documented seizure and laboratory routing where available.

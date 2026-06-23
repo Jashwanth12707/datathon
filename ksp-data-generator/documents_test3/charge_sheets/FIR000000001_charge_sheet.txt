@@ -1,0 +1,29 @@
+Charge Sheet
+
+Court:
+JMFC Belagavi
+
+FIR:
+FIR-000000001
+
+Accused:
+Mason Dhaliwal
+
+Charges:
+IPC, Sections 356, 379
+
+Evidence List:
+- EVD-000186234: Blood sample, Collected
+
+Witness List:
+- Vamakshi Nath, statement dated 2020-11-19
+- Andrew Chad, statement dated 2022-11-12
+
+Officer Opinion:
+Upon review of the linked records, sufficient material exists to place the above facts before the court for consideration in accordance with law. The charge sheet relies on the FIR, linked witness statements, evidence register, and any supporting surveillance or vehicle records available in the case extract.
+
+Recommendation:
+Proceed in terms of the case status shown as Disposed and list the matter for further judicial scrutiny.
+
+Filed By:
+Police Constable Gautam Sharaf
