@@ -70,6 +70,39 @@ Override specific counts:
 python generate.py --fir 1000000 --victim 850000 --accused 300000 --evidence 2000000
 ```
 
+## Generate Investigation Documents
+
+After the CSVs exist, you can generate linked police paperwork-style text files from those same rows.
+
+Small validation run:
+
+```bash
+python generate_documents.py --input-dir .\output --output-dir .\documents --fir-limit 10 --incident-target 10 --case-target 10 --scene-target 10 --witness-target 20 --arrest-target 5 --charge-target 5 --forensic-target 5 --history-target 5
+```
+
+Larger default run:
+
+```bash
+python generate_documents.py --input-dir .\output --output-dir .\documents
+```
+
+What it does:
+
+- reads existing CSV files only
+- builds a local SQLite relationship index incrementally
+- stores that SQLite working index in the system temp directory by default
+- keeps victims, accused, witnesses, evidence, court rows, CCTV, vehicles, and history sheets consistent with each FIR
+- writes individual `.txt` files into:
+  - `documents/incident_reports/`
+  - `documents/case_files/`
+  - `documents/witness_statements/`
+  - `documents/arrest_records/`
+  - `documents/charge_sheets/`
+  - `documents/forensic_reports/`
+  - `documents/history_sheets/`
+  - `documents/daily_case_diary/`
+  - `documents/crime_scene_notes/`
+
 Environment variable overrides are also supported:
 
 ```bash

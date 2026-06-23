@@ -1,0 +1,29 @@
+Charge Sheet
+
+Court:
+JMFC Mysuru
+
+FIR:
+FIR-000000005
+
+Accused:
+Unknown/Not linked
+
+Charges:
+IPC, Sections 379, 356, 323
+
+Evidence List:
+- EVD-000029492: Mobile phone, Collected
+
+Witness List:
+- Idika Vaidya, statement dated 2019-07-17
+- Nirja Dhar, statement dated 2018-04-25
+
+Officer Opinion:
+Upon review of the linked records, sufficient material exists to place the above facts before the court for consideration in accordance with law. The charge sheet relies on the FIR, linked witness statements, evidence register, and any supporting surveillance or vehicle records available in the case extract.
+
+Recommendation:
+Proceed in terms of the case status shown as Pending and list the matter for further judicial scrutiny.
+
+Filed By:
+Head Constable Gayathri Narayan

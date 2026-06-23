@@ -1,0 +1,10 @@
+Daily Case Diary
+
+FIR: FIR-000000001
+Police Station: Hassan Town Rural Police Station
+
+Day 1 - 2022-01-12: FIR reviewed by Police Constable Gautam Sharaf; complainant details cross-checked; place of occurrence and beat details noted.
+Day 2 - 2022-01-13: Witness availability reviewed; linked witness table checked; station notes aligned with occurrence timing and property/loss fields.
+Day 3 - 2022-01-14: Evidence register examined; seizure entries and collection dates compared with the FIR allegations.
+Day 5 - 2022-01-16: Accused profiles reviewed; custody and history-sheeter indicators checked against available records.
+Day 6 - 2022-01-17: Court case linkage reviewed with status Disposed.

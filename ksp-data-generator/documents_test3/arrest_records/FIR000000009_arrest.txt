@@ -1,0 +1,23 @@
+Arrest Record
+
+FIR: FIR-000000009
+Accused: Abhimanyu Sankaran (ACC-000021332)
+Arrest Date: 2024-01-07
+Officer: PSI Karan Ganguly
+Reason:
+Arrest/procedural custody action shown in relation to the investigation of Road Accident under sections 279, 337, 338.
+
+Legal Sections:
+279, 337, 338
+
+Items Seized:
+Fingerprint, Mobile phone, Blood sample, Bank statement
+
+Rights Explained:
+The record notes that the accused was informed of the grounds of action and procedural rights in the course of arrest processing.
+
+Medical Examination:
+Medical examination to be read as completed/referred as per standard arrest handling procedure; no contradictory field is present in current linked CSV records.
+
+Custody Status:
+Arrested

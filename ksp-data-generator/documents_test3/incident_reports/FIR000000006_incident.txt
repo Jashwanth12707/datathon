@@ -1,0 +1,33 @@
+Incident Number: FIR-000000006
+Date: 2024-12-01
+Time: 08:00:06
+Police Station: Yelahanka West Police Station
+Investigating Officer: Police Constable Mahika Handa (KSP59183)
+
+Summary of Incident:
+The FIR records a case of Vehicle Theft reported within the jurisdiction of Yelahanka West Police Station. The occurrence is noted at Yelahanka Cross on 2024-12-01 at about 05:26:32. The information was received as zero fir transfer and registered under IPC, sections 379.
+
+Victim Details:
+No linked victim entry was available in the current extracts.
+
+Location:
+District: Bengaluru Urban
+Beat Number: B-22
+Recorded Coordinates: 13.121234, 77.579678
+Taluk/Ward Reference: Bengaluru North / Ward 108
+
+Initial Observations:
+Initial station handling reflects prompt registration and a preliminary effort to note visible disturbance, access points, and property condition. Arya Varkey is shown as complainant, with address recorded as 00/170, Chauhan Chowk, Anantapuram-761304.
+
+Property Loss:
+Property/Subject: Auto rickshaw
+Estimated Loss: 445460
+
+IPC/BNS Sections:
+379
+
+Actions Taken:
+FIR registration completed, complainant details entered, linked witnesses and evidence reviewed from available records, and investigation marked to the above officer for follow-up.
+
+Status:
+Under Investigation
