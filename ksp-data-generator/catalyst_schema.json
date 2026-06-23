@@ -1,0 +1,250 @@
+{
+  "tables": [
+    {
+      "table_name": "location",
+      "primary_key": "location_id",
+      "columns": [
+        "location_id",
+        "district",
+        "taluk",
+        "village_or_ward",
+        "police_station",
+        "latitude",
+        "longitude",
+        "jurisdiction_type"
+      ]
+    },
+    {
+      "table_name": "station",
+      "primary_key": "station_id",
+      "columns": [
+        "station_id",
+        "district",
+        "police_station",
+        "station_type",
+        "address",
+        "latitude",
+        "longitude",
+        "phone",
+        "email",
+        "circle",
+        "subdivision"
+      ]
+    },
+    {
+      "table_name": "officer",
+      "primary_key": "officer_id",
+      "columns": [
+        "officer_id",
+        "name",
+        "gender",
+        "rank",
+        "badge_no",
+        "district",
+        "police_station",
+        "phone",
+        "email",
+        "active"
+      ]
+    },
+    {
+      "table_name": "gang",
+      "primary_key": "gang_id",
+      "columns": [
+        "gang_id",
+        "gang_name",
+        "base_district",
+        "base_area",
+        "primary_activity",
+        "member_count_estimate",
+        "active_since",
+        "risk_level"
+      ]
+    },
+    {
+      "table_name": "fir",
+      "primary_key": "fir_id",
+      "columns": [
+        "fir_id",
+        "year",
+        "date",
+        "time",
+        "district",
+        "police_station",
+        "beat_no",
+        "crime_type",
+        "act",
+        "sections",
+        "occurrence_date",
+        "occurrence_time",
+        "occurrence_place",
+        "latitude",
+        "longitude",
+        "complainant_name",
+        "complainant_address",
+        "complainant_occupation",
+        "type_of_information",
+        "property_stolen",
+        "estimated_loss",
+        "status",
+        "created_at"
+      ]
+    },
+    {
+      "table_name": "victim",
+      "primary_key": "victim_id",
+      "columns": [
+        "victim_id",
+        "fir_id",
+        "name",
+        "gender",
+        "age",
+        "occupation",
+        "phone",
+        "address",
+        "injury_type",
+        "hospital",
+        "statement_recorded"
+      ]
+    },
+    {
+      "table_name": "accused",
+      "primary_key": "accused_id",
+      "columns": [
+        "accused_id",
+        "fir_id",
+        "name",
+        "gender",
+        "age",
+        "occupation",
+        "address",
+        "mobile",
+        "aadhaar_last4",
+        "known_alias",
+        "gang_id",
+        "history_sheeter",
+        "wanted",
+        "status"
+      ]
+    },
+    {
+      "table_name": "evidence",
+      "primary_key": "evidence_id",
+      "columns": [
+        "evidence_id",
+        "fir_id",
+        "type",
+        "description",
+        "forensic_lab",
+        "collected_by",
+        "collection_date",
+        "status"
+      ]
+    },
+    {
+      "table_name": "witness",
+      "primary_key": "witness_id",
+      "columns": [
+        "witness_id",
+        "fir_id",
+        "name",
+        "age",
+        "gender",
+        "occupation",
+        "statement_date"
+      ]
+    },
+    {
+      "table_name": "court_case",
+      "primary_key": "case_id",
+      "columns": [
+        "case_id",
+        "fir_id",
+        "court_name",
+        "judge",
+        "public_prosecutor",
+        "charge_sheet_date",
+        "hearing_date",
+        "verdict",
+        "sentence",
+        "case_status"
+      ]
+    },
+    {
+      "table_name": "vehicle",
+      "primary_key": "vehicle_id",
+      "columns": [
+        "vehicle_id",
+        "owner",
+        "registration_number",
+        "engine_number",
+        "chassis_number",
+        "vehicle_type",
+        "color",
+        "manufacturer",
+        "status",
+        "linked_fir"
+      ]
+    },
+    {
+      "table_name": "cctv",
+      "primary_key": "camera_id",
+      "columns": [
+        "camera_id",
+        "owner",
+        "location",
+        "latitude",
+        "longitude",
+        "coverage_angle",
+        "resolution",
+        "status",
+        "linked_fir"
+      ]
+    },
+    {
+      "table_name": "bond",
+      "primary_key": "bond_id",
+      "columns": [
+        "bond_id",
+        "fir_id",
+        "accused_id",
+        "bond_type",
+        "surety_name",
+        "bond_amount",
+        "execution_date",
+        "expiry_date",
+        "status"
+      ]
+    },
+    {
+      "table_name": "history_sheet",
+      "primary_key": "history_sheet_id",
+      "columns": [
+        "history_sheet_id",
+        "accused_id",
+        "name",
+        "police_station",
+        "district",
+        "category",
+        "opened_on",
+        "last_reviewed",
+        "fir_count",
+        "risk_score",
+        "remarks"
+      ]
+    },
+    {
+      "table_name": "criminal_network",
+      "primary_key": "edge_id",
+      "columns": [
+        "edge_id",
+        "source_accused_id",
+        "target_accused_id",
+        "relationship",
+        "gang_id",
+        "strength",
+        "first_seen_fir"
+      ]
+    }
+  ]
+}

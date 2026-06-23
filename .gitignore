@@ -141,3 +141,16 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python caches and local virtualenvs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated KSP datasets and local loader config
+ksp-data-generator/output/
+ksp-data-generator/smoke_output/
+ksp-data-generator/*.env
+ksp-data-generator/local_config.json
+ksp-data-generator/catalyst_credentials.json
